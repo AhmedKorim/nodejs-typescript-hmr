@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "incremental": true,
+    "allowUnreachableCode": false,
+    "importHelpers": true,
+    "lib": ["ES2020", "ES2015.Core", "esnext.asynciterable"],
+    "noErrorTruncation": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictBindCallApply": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "pretty": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "inlineSourceMap": true,
+    "inlineSources": false,
+    "outDir": "build",
+    "baseUrl": "./src",
+    "rootDir": "src",
+    "paths": {
+      "@*": ["./*"],
+      "@app/*": ["app/*"],
+      "@shared/*": ["shared/*"],
+      "@generated/*": ["generated/*"]
+    }
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
